@@ -3,7 +3,7 @@
 Plugin Name: Britetechs Companion
 Plugin URI: 
 Description: Enhance britetechs WordPress Themes additional functionality in the homepage.
-Version: 3.1.1
+Version: 3.1.2
 Requires at least: 5.8
 Requires PHP: 7.0
 Author: Britetechs

@@ -33,7 +33,8 @@ class BC_Theme_Pages_Activator {
                                 $mytheme=='spawp' || 
                                 $mytheme=='bizcor' ||
                                 $mytheme=='shop2u' ||
-                                $mytheme=='blogone' 
+                                $mytheme=='blogone' ||
+                                $mytheme=='shopcozi' 
                             ){
                                 $template = 'templates/template-homepage.php';
                             }else{
