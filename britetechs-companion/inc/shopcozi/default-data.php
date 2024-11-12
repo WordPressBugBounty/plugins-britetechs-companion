@@ -37,7 +37,7 @@ if( ! function_exists('bc_shopcozi_default_options') ){
             'shopcozi_service_title' => '',
             'shopcozi_service_content' => shopcozi_homepage_service_default_data(),
             'shopcozi_service_style' => 'two',
-            'shopcozi_service_column' => 3,
+            'shopcozi_service_column' => 4,
 
             'shopcozi_p_recent_title' => __('Latest Products','shopcozi'),
 
@@ -313,6 +313,12 @@ function shopcozi_homepage_service_default_data(){
                 array(
                     'icon' => 'fa-regular fa-clock',
                     'title' => __('Free gift wrapping','shopcozi'),
+                    'desc' => __('Lorem ipsum dolor sit amet','shopcozi'),
+                    'link' => '#',
+                ),
+                array(
+                    'icon' => 'fa-regular fa-clock',
+                    'title' => __('24x7 Support','shopcozi'),
                     'desc' => __('Lorem ipsum dolor sit amet','shopcozi'),
                     'link' => '#',
                 ),

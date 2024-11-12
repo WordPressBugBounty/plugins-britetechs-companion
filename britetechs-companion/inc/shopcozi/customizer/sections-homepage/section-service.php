@@ -58,7 +58,7 @@ function bc_shopcozi_customizer_service_settings( $wp_customize ){
 						'section'       => 'section_service',
 						'live_title_id' => 'title', // apply for unput text and textarea only
 						'title_format'  => esc_html__( '[live_title]','shopcozi'), // [live_title]
-						'max_item'      => 3,
+						'max_item'      => 4,
 						'limited_msg' 	=> shopcozi_upgrade_pro_msg(),
 						'fields'    => array(
 							// 'icon_type'  => array(
