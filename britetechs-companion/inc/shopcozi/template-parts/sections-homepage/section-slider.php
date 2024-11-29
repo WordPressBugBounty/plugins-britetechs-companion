@@ -22,11 +22,11 @@ if($option['shopcozi_slider_show']==true){
                         	$image = shopcozi_get_media_url( $val['image'] );
 			                $bg_overlay = isset( $val['bg_overlay'] ) ?  $val['bg_overlay'] : '';
 			                $subtitle = isset( $val['subtitle'] ) ?  $val['subtitle'] : '';
-			                $subtitle_color = isset( $val['subtitle_color'] ) ?  $val['subtitle_color'] : '';
+			                $subtitle_color = isset( $val['subtitle_color'] ) ?  $val['subtitle_color'] : 'ffffff';
 			                $title = isset( $val['title'] ) ?  $val['title'] : '';
-			                $title_color = isset( $val['title_color'] ) ?  $val['title_color'] : '';
+			                $title_color = isset( $val['title_color'] ) ?  $val['title_color'] : 'ffffff';
 			                $desc = isset( $val['desc'] ) ?  $val['desc'] : '';
-			                $desc_color = isset( $val['desc_color'] ) ?  $val['desc_color'] : '';
+			                $desc_color = isset( $val['desc_color'] ) ?  $val['desc_color'] : 'ffffff';
 			                $align = isset( $val['align'] ) ?  $val['align'] : 'start';
 			                $button1_label = isset( $val['button1_label'] ) ?  $val['button1_label'] : '';
 			                $button1_link = isset( $val['button1_link'] ) ?  $val['button1_link'] : '';

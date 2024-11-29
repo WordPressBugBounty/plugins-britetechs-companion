@@ -2,8 +2,8 @@
 Contributors: britetechs
 Tags: hotelone, jewelry-store, bizcor, hotely, hotel-imperial
 Requires at least: 5.8
-Tested up to: 6.6
-Stable tag: 3.1.3
+Tested up to: 6.7.1
+Stable tag: 3.1.4
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -30,6 +30,9 @@ Britetechs Companion WordPress plugin, Copyright (C) 2018 Britetechs
 Britetechs Companion WordPress plugin is licensed under the GPL3 (https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 == Changelog ==
+
+= 3.1.4 =
+* Shopcozi slider images changed.
 
 = 3.1.3 =
 * Shopcozi theme issues resolved.
