@@ -156,7 +156,7 @@ function shopcozi_header_topbar_icons_data(){
 }
 
 function shopcozi_homepage_slider_default_data(){
-    return  array(
+    $slider_data = array(
                 array(
                     'image' => array(
                         'url'=>bc_plugin_url.'inc/shopcozi/img/slide-1.jpg',
@@ -194,6 +194,8 @@ function shopcozi_homepage_slider_default_data(){
                     ),
                 ),
             );
+
+    return  apply_filters('shopcozi_slider_default_data', $slider_data);
 }
 
 function shopcozi_homepage_slider_data(){
@@ -234,7 +236,8 @@ function shopcozi_homepage_slider_data(){
 }
 
 function shopcozi_homepage_slider_r_content_default_data(){
-    return  array(
+
+    $slider_right_data = array(
                 array(
                     'image' => array(
                         'url'=>bc_plugin_url.'inc/shopcozi/img/slider-right-1.jpg',
@@ -266,6 +269,8 @@ function shopcozi_homepage_slider_r_content_default_data(){
                     'button_target' => false,
                 ),
             );
+
+    return  apply_filters('shopcozi_slider_right_default_data', $slider_right_data);
 }
 
 function shopcozi_homepage_slider_r_content_data(){
@@ -361,7 +366,7 @@ function shopcozi_homepage_service_data(){
 }
 
 function shopcozi_homepage_banner_default_data(){
-    return  array(
+    $banner_data = array(
                 array(
                     'image' => array(
                         'url'=>bc_plugin_url.'inc/shopcozi/img/banner-1.png',
@@ -385,6 +390,8 @@ function shopcozi_homepage_banner_default_data(){
                     'button_target' => false,
                 ),
             );
+
+    return  apply_filters('shopcozi_banner_default_data', $banner_data);
 }
 
 function shopcozi_homepage_banner_data(){
@@ -422,7 +429,7 @@ function shopcozi_homepage_banner_data(){
 }
 
 function shopcozi_homepage_testimonial_default_data(){
-    return  array(
+    $testimonial_data = array(
                 array(
                     'image' => array(
                         'url'=>bc_plugin_url.'inc/shopcozi/img/testi1.png',
@@ -451,6 +458,8 @@ function shopcozi_homepage_testimonial_default_data(){
                     'link' => '#',
                 ),
             );
+
+    return  apply_filters('shopcozi_testimonial_default_data', $testimonial_data);
 }
 
 function shopcozi_homepage_testimonial_data(){

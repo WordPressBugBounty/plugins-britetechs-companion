@@ -3,7 +3,7 @@
 Plugin Name: Britetechs Companion
 Plugin URI: 
 Description: Enhance britetechs WordPress Themes additional functionality in the homepage.
-Version: 3.1.4
+Version: 3.1.5
 Requires at least: 5.8
 Requires PHP: 7.0
 Author: Britetechs
@@ -27,7 +27,7 @@ if( !function_exists('bc_init') ){
 		$mytheme = strtolower( $mytheme );
 		$mytheme = str_replace( ' ','-', $mytheme );
 		
-		if(file_exists( bc_plugin_dir . "inc/$mytheme/init.php")){
+		if( file_exists( bc_plugin_dir . "inc/$mytheme/init.php" ) ){
 
 			require("inc/$mytheme/init.php");
 
@@ -46,6 +46,10 @@ if( !function_exists('bc_init') ){
 		}else if($mytheme=='bloggly'){
 
 			require("inc/blogone/init.php");
+			
+		}else if($mytheme=='shoppy'){
+
+			require("inc/shopcozi/init.php");
 			
 		}	
 	}
