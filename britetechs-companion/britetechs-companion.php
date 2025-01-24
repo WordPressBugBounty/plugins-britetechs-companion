@@ -3,7 +3,7 @@
 Plugin Name: Britetechs Companion
 Plugin URI: 
 Description: Enhance britetechs WordPress Themes additional functionality in the homepage.
-Version: 3.1.5
+Version: 3.1.6
 Requires at least: 5.8
 Requires PHP: 7.0
 Author: Britetechs
@@ -14,6 +14,7 @@ Text Domain: britetechs-companion
 if(!define('bc_plugin_url', plugin_dir_url( __FILE__ ))){
 	define( 'bc_plugin_url', plugin_dir_url( __FILE__ ) );
 }
+
 if(!define('bc_plugin_dir', plugin_dir_path( __FILE__ ))){
 	define( 'bc_plugin_dir', plugin_dir_path( __FILE__ ) );
 }
@@ -43,7 +44,7 @@ if( !function_exists('bc_init') ){
 
 			require("inc/bizcor/init.php");
 
-		}else if($mytheme=='bloggly'){
+		}else if($mytheme=='bloggly' || $mytheme=='blogair'){
 
 			require("inc/blogone/init.php");
 			
