@@ -29,7 +29,7 @@ if($option['blogone_topbar_show'] == true){
 			<div class="col-lg-3 col-md-5 col-12 d-none d-md-block">
 				<?php if($option['blogone_topbar_search_show']==true){ ?>
 				<div class="bs-header_form">
-					<form method="get" action="">	
+					<form method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">	
 						<input type="search" placeholder="<?php echo esc_attr($option['blogone_topbar_search_label']); ?>" name="s">
 						<button class="btn btn-theme btn-search"><i class="fa fa-search"></i></button>
 					</form>
