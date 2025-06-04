@@ -3,7 +3,7 @@
 Plugin Name: Britetechs Companion
 Plugin URI: 
 Description: Enhance britetechs WordPress Themes additional functionality in the homepage.
-Version: 3.1.7
+Version: 3.1.8
 Requires at least: 5.8
 Requires PHP: 7.0
 Author: Britetechs
@@ -22,36 +22,13 @@ if(!define('bc_plugin_dir', plugin_dir_path( __FILE__ ))){
 if( !function_exists('bc_init') ){
 	function bc_init(){
 		 
-		/* Retrive Current Theme Contents Here */
-		$themedata = wp_get_theme();
-		$mytheme = $themedata->name;
-		$mytheme = strtolower( $mytheme );
-		$mytheme = str_replace( ' ','-', $mytheme );
+		/* Connect with parent theme options */
+		$theme_slug = get_template();
 		
-		if( file_exists( bc_plugin_dir . "inc/$mytheme/init.php" ) ){
+		if( file_exists( bc_plugin_dir . "inc/$theme_slug/init.php" ) ){
 
-			require("inc/$mytheme/init.php");
+			require("inc/$theme_slug/init.php");
 
-		}else if($mytheme=='hotel-imperial'|| $mytheme=='hotely'){
-
-			require("inc/hotelone/init.php");
-
-		}else if($mytheme=='astrio'){
-
-			require("inc/businesswp/init.php");
-
-		}else if($mytheme=='bloovo'){
-
-			require("inc/bizcor/init.php");
-
-		}else if($mytheme=='bloggly' || $mytheme=='blogair'){
-
-			require("inc/blogone/init.php");
-			
-		}else if($mytheme=='shoppy'){
-
-			require("inc/shopcozi/init.php");
-			
 		}	
 	}
 }
