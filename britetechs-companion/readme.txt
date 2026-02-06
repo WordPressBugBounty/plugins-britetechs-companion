@@ -2,8 +2,8 @@
 Contributors: britetechs
 Tags: hotelone, jewelry-store, bizcor, hotely, hotel-imperial
 Requires at least: 5.8
-Tested up to: 6.8.1
-Stable tag: 3.1.8
+Tested up to: 6.9
+Stable tag: 3.1.9
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -30,6 +30,9 @@ Britetechs Companion WordPress plugin, Copyright (C) 2018 Britetechs
 Britetechs Companion WordPress plugin is licensed under the GPL3 (https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 == Changelog ==
+
+= 3.1.9 =
+* britetechs-companion.php and readme.txt files updated.
 
 = 3.1.8 =
 * Plugin updated for parent theme name issue.
